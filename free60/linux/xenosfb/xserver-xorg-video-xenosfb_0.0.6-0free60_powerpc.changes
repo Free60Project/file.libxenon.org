@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sun, 23 Sep 2012 22:02:23 +0200
+Source: xserver-xorg-video-xenosfb
+Binary: xserver-xorg-video-xenosfb xserver-xorg-video-xenosfb-udeb
+Architecture: source powerpc
+Version: 1:0.0.6-0free60
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: tuxuser <webmaster@libxenon.org>
+Description: 
+ xserver-xorg-video-xenosfb - X.Org X server -- xenosfb display driver
+ xserver-xorg-video-xenosfb-udeb - X.Org X server -- xenosfb display driver (udeb)
+Changes: 
+ xserver-xorg-video-xenosfb (1:0.0.6-0free60) UNRELEASED; urgency=low
+ .
+   * Updated xenos code by GliGli
+   * Introduce debian packaging
+Checksums-Sha1: 
+ 4a6d548b54de2894d47cd635b965ce73d19b696b 969 xserver-xorg-video-xenosfb_0.0.6-0free60.dsc
+ f8b2b70517bb74cdd781b2d1198426cf6742fba8 820343 xserver-xorg-video-xenosfb_0.0.6-0free60.tar.gz
+ 3585686e8dcfbe40cbac39d7e890cfe0d0ec316d 56932 xserver-xorg-video-xenosfb_0.0.6-0free60_powerpc.deb
+ 0173f524b9d17946afd8fa50ae2d4bdbbd6d8fed 43752 xserver-xorg-video-xenosfb-udeb_0.0.6-0free60_powerpc.udeb
+Checksums-Sha256: 
+ 5953ad4439212bf6dafbaadb7c843e4196903539b2eb0e302d150f478e4fc892 969 xserver-xorg-video-xenosfb_0.0.6-0free60.dsc
+ ac1cb3235b698848f01ec78d729694322d29f69ed3dc030a6bfba3d64133697d 820343 xserver-xorg-video-xenosfb_0.0.6-0free60.tar.gz
+ 98d8d3ef7963056e9e8d9e85d5091e4af4a368d274923f0f2266292cc3d2af40 56932 xserver-xorg-video-xenosfb_0.0.6-0free60_powerpc.deb
+ fdb2b007da9211a457709dcd19ec7940826383b5fd2166d7fae9e4f0bd6031b7 43752 xserver-xorg-video-xenosfb-udeb_0.0.6-0free60_powerpc.udeb
+Files: 
+ 6959ba406b7677c6cf568ce5eec91b5b 969 x11 optional xserver-xorg-video-xenosfb_0.0.6-0free60.dsc
+ ed3f18851ca8c4e8442999b74aee5bfd 820343 x11 optional xserver-xorg-video-xenosfb_0.0.6-0free60.tar.gz
+ 162c73ad7b3739d5183eaffb2f440de4 56932 x11 optional xserver-xorg-video-xenosfb_0.0.6-0free60_powerpc.deb
+ 9b5d045b9fc81cc14d6317fba6115a8e 43752 debian-installer optional xserver-xorg-video-xenosfb-udeb_0.0.6-0free60_powerpc.udeb
+Package-Type: udeb

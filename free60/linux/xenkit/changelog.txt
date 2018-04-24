@@ -1,0 +1,40 @@
+Last update : 20090328
+xenKit project (hardware accelerated graphics for 360)
+
+Currently: Thinking about another version of xenKit (fully based on tmbinc's gpu demo)
+- 1080i support (get rid of current 1024 pixels width limit, due to hardcoded values)
+- Real way to avoid screen flickering
+- New KK Patch to start homebrew another way (minidash for 360, probably)
+(Absolutely no ETA on these ones... Will take time...)
+
+20090328 home.tele2.fr/~fr-51785 (will stop working) replaced with minilgos.perso.sfr.fr
+20071016 xenkit_x11_lighting.zip released! Adds gouraud lighting shaders! (1 source)
+20071001 xenkit_x11.zip released! Adds mouse and keyboard support in windowed mode!
+20070929 After some adjustment here comes xenkit_core.zip! Merge of tmbinc's sources!
+20070928 tmbinc published final version of his gpu demo! (his blog : http//x226.org)
+
+Thanks to tmbinc and Tser for their wonderful work on 360!
+
+Note: Original demo tmbinc's gpu-0.0.3 + romextract-0.0.1 will crash under Gentoo.
+You will need xenkit_core.zip, which is 100% compatible with Gentoo Live CD Beta 2.
+(login as root, transfert files, type in "make", type in "./gpu"! See readmetoo.txt)
+
+Couldn't find a way to detect new position of window when you move it. So resolve
+will be static. Also couldn't find a way to add offsets to the resolve, so, can't
+really have centered rendering inside window. Can be fixed, surely, with study...
+
+Files:
+http://minilgos.perso.sfr.fr/xenkit/xenkit_core.zip (merge of tmbinc's src and Demo 04)
+http://minilgos.perso.sfr.fr/xenkit/xenkit_x11.zip (mse & keyb. support in X11 window)
+http://minilgos.perso.sfr.fr/xenkit/xenkit_x11_lighting.zip (gouraud lighting shaders)
+http://minilgos.perso.sfr.fr/xenkit/rshadercompiler.zip (Tser's xn/a shader compiler)
+
+Other files:
+http://minilgos.perso.sfr.fr/pbkit/changelog.txt (similar low level driver for xbox1)
+
+Forum posts:
+http://forums.xbox-scene.com/index.php?showtopic=620515&st=0 (xenKit)
+http://forums.xbox-scene.com/index.php?showtopic=615906&pid=4072946&mode=threaded&show=&st=&#entry4072946 (guide about CPU keys and Gentoo usage)
+http://forums.xbox-scene.com/index.php?showtopic=607877 (guide about wc & xclamps)
+http://forums.xbox-scene.com/index.php?showtopic=620009 (guide about fw swapping)
+
